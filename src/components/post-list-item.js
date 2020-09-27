@@ -4,7 +4,7 @@ import React from "react"
 export default function PostListItem({ children }) {
   return (
     <div>
-      <div style={{ lineHeight: "10px" }}>
+      <div>
         <h2>
           <Link to={children.frontmatter.slug}>{children.frontmatter.title}</Link>
         </h2>

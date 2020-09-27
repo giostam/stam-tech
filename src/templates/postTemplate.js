@@ -6,7 +6,7 @@ export default function Post({ data }) {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div style={{ lineHeight: "10px" }}>
+      <div>
         <h2>
           <Link>{post.frontmatter.title}</Link>
         </h2>
