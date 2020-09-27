@@ -7,9 +7,9 @@ export default function Post({ data }) {
   return (
     <Layout>
       <div style={{ lineHeight: "10px" }}>
-        <h1>
+        <h2>
           <Link>{post.frontmatter.title}</Link>
-        </h1>
+        </h2>
         <span style={{ fontSize: "14px" }}>{post.frontmatter.date}</span>
       </div>
       <p>
