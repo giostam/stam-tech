@@ -1,0 +1,17 @@
+.header {
+    color: whitesmoke important;
+    text-align: center;
+    border-bottom: 4px solid gray;
+    padding-bottom: 1rem;
+}
+
+.header h1 {
+    color: whitesmoke;
+    font-size: 56px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
