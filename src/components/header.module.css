@@ -8,6 +8,8 @@
 .header h1 {
     color: whitesmoke;
     font-size: 56px;
+    text-shadow: 1px 4px rgb(41, 41, 41) ;
+    margin: 10px;
 }
 
 .header ul {

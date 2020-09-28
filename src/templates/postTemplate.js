@@ -1,20 +1,17 @@
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
+import PostMetadata from "../components/post-meta"
 
 export default function Post({ data }) {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div>
-        <h2>
-          <Link>{post.frontmatter.title}</Link>
-        </h2>
-        <span style={{ fontSize: "14px" }}>{post.frontmatter.date}</span>
-      </div>
-      <p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </p>
+      <PostMetadata
+        title={post.frontmatter.title}
+        date={post.frontmatter.date}
+      />
+      <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )
 }

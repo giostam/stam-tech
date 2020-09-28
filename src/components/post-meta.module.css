@@ -1,0 +1,9 @@
+.postTitle {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.postDate {
+    opacity: 0.8;
+    font-size: 16px;
+}

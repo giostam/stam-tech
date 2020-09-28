@@ -1,6 +1,6 @@
 ---
 slug: "/2020/09/post1"
-title: "Πρώτο post σε ένα Gatsby blog"
+title: "Πρώτο post σε ένα Gatsby blog that I want to be big enough to wrap to a second line"
 date: "2020-09-25"
 language: "el"
 ---

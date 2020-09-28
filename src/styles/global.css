@@ -7,6 +7,11 @@ html {
   font-size: 20px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 a {
-  color: #a0b0fc;
+  color: #47b3ff;
 }

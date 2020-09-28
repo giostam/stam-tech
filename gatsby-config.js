@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Stam Tech",
+    title: "Stam.Tech",
   },
   plugins: [
     {
@@ -19,6 +19,14 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-"
+            }
+          }
+        ],
         excerpt_separator: `<!-- end -->`,
       },
     },

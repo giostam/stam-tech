@@ -1,15 +1,14 @@
-import { Link } from "gatsby"
 import React from "react"
+import PostMetadata from "./post-meta"
 
 export default function PostListItem({ children }) {
   return (
     <div>
-      <div>
-        <h2>
-          <Link to={children.frontmatter.slug}>{children.frontmatter.title}</Link>
-        </h2>
-        <span style={{ fontSize: "14px" }}>{children.frontmatter.date}</span>
-      </div>
+      <PostMetadata
+        title={children.frontmatter.title}
+        slug={children.frontmatter.slug}
+        date={children.frontmatter.date}
+      />
       <p>{children.excerpt}</p>
     </div>
   )
